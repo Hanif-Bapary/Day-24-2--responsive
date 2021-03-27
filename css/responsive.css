@@ -1,0 +1,137 @@
+@media(max-width:1100px){
+    .fixed-width {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+}
+@media(max-width:992px){
+    .header-left a {
+        font-size: 30px;
+    }
+    .s-content {
+        margin-top: -60px;
+    }
+    .s-items {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .item {
+        width: 48%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+        border-radius: 30px 0 30px 0;
+    }
+    .item:hover {
+        background: #ddd;
+        border: 1px dotted #0dbf9b;
+        box-sizing: border-box;
+        transform: scale(1);
+    }
+    .blogs {
+        margin: 0px 0 25px 0;
+    }
+    .b-c-1 h4 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .b-c-1 {
+        margin: 12px 0 20px 0;
+    }
+}
+@media(max-width:768px){
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right {
+        width: 100%;
+        text-align: center;
+    }
+    .slider-section {;
+        padding: 120px 0;
+    }
+    .slider-section h1 {
+        font-size: 40px;
+    }
+    .slider-section h3 {
+        padding: 20px 0;
+        font-size: 18px;
+    }
+    .slider-section a {
+        padding: 7px 12px;
+    }
+    .s-content h2 {
+        font-size: 36px;
+    }
+    .s-content p {
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    .item a {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+    .b-image {
+        width: 100%;
+    }
+    .b-content {
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .device {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+@media(max-width:576px){
+    .float-left {
+        margin-bottom: -10px;
+    }
+    .header-right ul li a {
+        padding: 14px 10px;
+    }
+    .slider-section {
+        padding: 80px 0;
+    }
+    .slider-section h1 {
+        font-size: 28px;
+        margin-bottom: -7px;
+    }
+    .slider-section h3 {
+        padding: 15px 0;
+        font-size: 13px;
+    }
+    .slider-section a {
+        padding: 5px 8px;
+        font-size: 15px;
+    }
+    .s-content h2 {
+        padding: 64px 0 10px 0;
+        font-size: 31px;
+    }
+    .s-content p {
+        padding-bottom: 10px;
+    }
+    .item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .float-left {
+        margin-bottom: 20px;
+    }
+    .s-manu ul li a {
+        padding: 13PX 14PX;
+        font-size: 15PX;
+    }
+    .footer-section p {
+        color: #fff;
+        padding: 10px 0;
+        font-size: 12px;
+    }
+}
